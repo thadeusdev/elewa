@@ -14,13 +14,14 @@ audio {
 input {
 	max-width: 100%;
 	height: fit-content !important;
-	padding: 5px 10px;
-	margin-bottom: 5px;
-	border-radius: 3px;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0.4rem;
+	border-radius: 0.7rem;
 	caret-color: var(--convs-mgr-color-text-black);
 	color: var(--convs-mgr-color-text-black);
 	outline: none;
-	border: 1px solid var(--convs-mgr-color-text-black);
+	border: none;
+	background-color: #f3f3f3;
 }
 
 .fileSrc {
