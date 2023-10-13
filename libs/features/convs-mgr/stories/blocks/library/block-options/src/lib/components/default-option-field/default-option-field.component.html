@@ -1,5 +1,13 @@
 <div *ngIf="blockFormGroup" fxFlex>
-  <div [formGroup]="blockFormGroup" fxFlex>
-    <input [id]="inputUniqueId" formControlName="defaultTarget" type="text" placeholder="Default" fxFlexFill>
+  <div [formGroup]="blockFormGroup" fxFlex class="multimedia">
+    <div class="play-container">
+      <img src="assets/svgs/blocks/play.svg" alt="" />
+    </div>
+    <div class="wave-container">
+      <img src="assets/svgs/blocks/wave.svg" alt="" />
+    </div>
+    <div class="cancel-container">
+      <img src="assets/svgs/blocks/cancel.svg" alt="" />
+    </div>
   </div>
 </div>
